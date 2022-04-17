@@ -1,0 +1,191 @@
+var VALORACION =$feature.Valoracion
+var cs=$view.scale
+
+When(cs<=12500&&cs>=1000&&VALORACION==5, 20,
+cs<=12500&&cs>=100&&VALORACION==4, 15,
+cs<=12500&&cs>=100&&VALORACION==3, 12,
+cs<=12500&&cs>=100&&VALORACION<=3, 8,
+1)
+
+
+
+BARES
+
+var VALORACION =$feature.Valoracion
+var cs=$view.scale
+
+When(
+cs<=12500&&cs>=5000&&VALORACION==5, 0,
+cs<=12500&&cs>=5000&&VALORACION==4, 0,
+cs<=12500&&cs>=5000&&VALORACION==3, 0,
+cs<=12500&&cs>=5000&&VALORACION<=3, 0,
+
+cs<=5000&&cs>=3500&&VALORACION==5, 10,
+cs<=5000&&cs>=3500&&VALORACION==4, 0,
+cs<=5000&&cs>=3500&&VALORACION==3, 0,
+cs<=5000&&cs>=3500&&VALORACION<=3, 0,
+
+cs<=3500&&cs>=2500&&VALORACION==5, 10,
+cs<=3500&&cs>=2500&&VALORACION==4, 7,
+cs<=3500&&cs>=2500&&VALORACION==3, 0,
+cs<=3500&&cs>=2500&&VALORACION<=3, 0,
+
+cs<=2500&&cs>=100&&VALORACION ==5,25,
+cs<=2500&&cs>=100&&VALORACION ==4,20,
+cs<=2500&&cs>=100&&VALORACION ==3,15,
+cs<=2500&&cs>=100&&VALORACION <=3,5,
+1)
+
+
+TIENDAS
+
+var VALORACION =$feature.Valoracion
+var cs=$view.scale
+
+When(
+cs<=12500&&cs>=8500&&VALORACION==5, 0,
+cs<=12500&&cs>=8500&&VALORACION==4, 0,
+cs<=12500&&cs>=8500&&VALORACION==3, 0,
+cs<=12500&&cs>=8500&&VALORACION<=3, 0,
+
+cs<=8500&&cs>=5000&&VALORACION==5,20,
+cs<=8500&&cs>=5000&&VALORACION==4,0,
+cs<=8500&&cs>=5000&&VALORACION==3,0,
+cs<=8500&&cs>=5000&&VALORACION<=3,0,
+
+cs<=5000&&cs>=3500&&VALORACION==5,25,
+cs<=5000&&cs>=3500&&VALORACION==4,20,
+cs<=5000&&cs>=3500&&VALORACION==3,15,
+cs<=5000&&cs>=3500&&VALORACION<=3,0,
+
+cs<=3500&&cs>=100&&VALORACION==5,25,
+cs<=3500&&cs>=100&&VALORACION==4,20,
+cs<=3500&&cs>=100&&VALORACION==3,15,
+cs<=3500&&cs>=100&&VALORACION<=3,10,
+1)
+
+
+OCIO NOCTURNO
+
+var VALORACION = $feature.Valoracion
+var cs=$view.scale
+
+When(
+cs<=12500&&cs>=8500&&VALORACION==5, 0,
+cs<=12500&&cs>=8500&&VALORACION==4, 0,
+cs<=12500&&cs>=8500&&VALORACION==3, 0,
+cs<=12500&&cs>=8500&&VALORACION<=3, 0,
+
+cs<=8500&&cs>=5000&&VALORACION==5,20,
+cs<=8500&&cs>=5000&&VALORACION==4,15,
+cs<=8500&&cs>=5000&&VALORACION==3,0,
+cs<=8500&&cs>=5000&&VALORACION<=3,0,
+
+cs<=5000&&cs>=3500&&VALORACION==5,25,
+cs<=5000&&cs>=3500&&VALORACION==4,20,
+cs<=5000&&cs>=3500&&VALORACION==3,15,
+cs<=5000&&cs>=3500&&VALORACION<=3,0,
+
+cs<=3500&&cs>=100&&VALORACION==5,25,
+cs<=3500&&cs>=100&&VALORACION==4,20,
+cs<=3500&&cs>=100&&VALORACION==3,15,
+cs<=3500&&cs>=100&&VALORACION<=3,10,
+1)
+
+
+MUSEOS
+
+var VALORACION =$feature.Valoracion
+var cs=$view.scale
+
+When(
+cs<=12500&&cs>=8500&&VALORACION==5, 0,
+cs<=12500&&cs>=8500&&VALORACION==4, 0,
+cs<=12500&&cs>=8500&&VALORACION==3, 0,
+cs<=12500&&cs>=8500&&VALORACION<=3, 0,
+
+cs<=8500&&cs>=5000&&VALORACION==5,20,
+cs<=8500&&cs>=5000&&VALORACION==4,0,
+cs<=8500&&cs>=5000&&VALORACION==3,0,
+cs<=8500&&cs>=5000&&VALORACION<=3,0,
+
+cs<=5000&&cs>=3500&&VALORACION==5,25,
+cs<=5000&&cs>=3500&&VALORACION==4,20,
+cs<=5000&&cs>=3500&&VALORACION==3,15,
+cs<=5000&&cs>=3500&&VALORACION<=3,0,
+
+cs<=3500&&cs>=100&&VALORACION==5,25,
+cs<=3500&&cs>=100&&VALORACION==4,20,
+cs<=3500&&cs>=100&&VALORACION==3,15,
+cs<=3500&&cs>=100&&VALORACION<=3,10,
+1)
+
+
+
+
+TEATROS y CINES
+
+var VALORACION =$feature.Valoracion
+var cs=$view.scale
+
+When(cs<=12500&&cs>=1000&&VALORACION==5, 20,
+cs<=12500&&cs>=100&&VALORACION==4, 15,
+cs<=12500&&cs>=100&&VALORACION==3, 12,
+cs<=12500&&cs>=100&&VALORACION<=3, 9,
+1)
+
+
+PARQUES
+
+var VALORACION =$feature.Valoracion
+var cs=$view.scale
+
+When(
+cs<=12500&&cs>=8500&&VALORACION==5, 0,
+cs<=12500&&cs>=8500&&VALORACION==4, 0,
+cs<=12500&&cs>=8500&&VALORACION==3, 0,
+cs<=12500&&cs>=8500&&VALORACION<=3, 0,
+
+cs<=8500&&cs>=5000&&VALORACION==5,20,
+cs<=8500&&cs>=5000&&VALORACION==4,0,
+cs<=8500&&cs>=5000&&VALORACION==3,0,
+cs<=8500&&cs>=5000&&VALORACION<=3,0,
+
+cs<=5000&&cs>=3500&&VALORACION==5,25,
+cs<=5000&&cs>=3500&&VALORACION==4,20,
+cs<=5000&&cs>=3500&&VALORACION==3,15,
+cs<=5000&&cs>=3500&&VALORACION<=3,0,
+
+cs<=3500&&cs>=100&&VALORACION==5,25,
+cs<=3500&&cs>=100&&VALORACION==4,20,
+cs<=3500&&cs>=100&&VALORACION==3,15,
+cs<=3500&&cs>=100&&VALORACION<=3,10,
+1)
+
+
+DEPORTES
+
+var VALORACION =$feature.Valoracion
+var cs=$view.scale
+
+When(
+cs<=12500&&cs>=8500&&VALORACION==5, 0,
+cs<=12500&&cs>=8500&&VALORACION==4, 0,
+cs<=12500&&cs>=8500&&VALORACION==3, 0,
+cs<=12500&&cs>=8500&&VALORACION<=3, 0,
+
+cs<=8500&&cs>=5000&&VALORACION==5,20,
+cs<=8500&&cs>=5000&&VALORACION==4,0,
+cs<=8500&&cs>=5000&&VALORACION==3,0,
+cs<=8500&&cs>=5000&&VALORACION<=3,0,
+
+cs<=5000&&cs>=3500&&VALORACION==5,25,
+cs<=5000&&cs>=3500&&VALORACION==4,20,
+cs<=5000&&cs>=3500&&VALORACION==3,15,
+cs<=5000&&cs>=3500&&VALORACION<=3,0,
+
+cs<=3500&&cs>=100&&VALORACION==5,25,
+cs<=3500&&cs>=100&&VALORACION==4,20,
+cs<=3500&&cs>=100&&VALORACION==3,15,
+cs<=3500&&cs>=100&&VALORACION<=3,10,
+1)
