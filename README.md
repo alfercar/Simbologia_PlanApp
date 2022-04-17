@@ -1,0 +1,2 @@
+# Simbologia_PlanApp
+Simbologia_PlanApp
